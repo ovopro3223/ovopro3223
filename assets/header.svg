@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Abdullah Hijazy</title>
+  <desc id="d">Full-Stack Software Architect and SaaS Founder, based in Germany. Building Atlas, a next-generation website builder and CMS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060F"/>
+      <stop offset=".55" stop-color="#0B1233"/>
+      <stop offset="1" stop-color="#1B0B33"/>
+    </linearGradient>
+    <radialGradient id="g1" cx=".82" cy=".48" r=".42">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx=".04" cy="1" r=".55">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#A493FF"/>
+      <stop offset=".45" stop-color="#4B3CC9"/>
+      <stop offset="1" stop-color="#120C3D"/>
+    </radialGradient>
+    <linearGradient id="ac" x1="0" x2="1">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <linearGradient id="tt" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C3CCFF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="340" rx="22"/></clipPath>
+    <linearGradient id="cm" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="-150" y2="-56">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .f{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Inter,Helvetica,Arial,sans-serif}
+    .s{animation:tw 4s ease-in-out infinite}
+    .s:nth-child(3n){animation-delay:-1.3s}
+    .s:nth-child(3n+1){animation-delay:-2.6s}
+    @keyframes tw{0%,100%{opacity:.2}50%{opacity:.95}}
+    .o1{transform-origin:985px 165px;animation:sp 18s linear infinite}
+    .o2{transform-origin:985px 165px;animation:sp 32s linear infinite reverse}
+    @keyframes sp{to{transform:rotate(360deg)}}
+    .pl{animation:fl 6s ease-in-out infinite}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    .ln{opacity:0;animation:cy 12s ease-in-out infinite}
+    .ln2{animation-delay:4s}
+    .ln3{animation-delay:8s}
+    @keyframes cy{0%{opacity:0;transform:translateY(10px)}5%,28%{opacity:1;transform:translateY(0)}33%,100%{opacity:0;transform:translateY(-10px)}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect width="1200" height="340" fill="url(#g1)"/>
+    <rect width="1200" height="340" fill="url(#g2)"/>
+    <g fill="#FFFFFF">
+      <circle class="s" cx="42" cy="38" r="1.2"/><circle class="s" cx="128" cy="22" r=".8"/>
+      <circle class="s" cx="210" cy="64" r="1"/><circle class="s" cx="318" cy="30" r="1.4"/>
+      <circle class="s" cx="402" cy="82" r=".7"/><circle class="s" cx="488" cy="18" r="1"/>
+      <circle class="s" cx="566" cy="58" r="1.3"/><circle class="s" cx="640" cy="26" r=".8"/>
+      <circle class="s" cx="708" cy="90" r="1.1"/><circle class="s" cx="772" cy="40" r=".9"/>
+      <circle class="s" cx="846" cy="16" r="1.2"/><circle class="s" cx="1010" cy="24" r="1"/>
+      <circle class="s" cx="1088" cy="58" r="1.4"/><circle class="s" cx="1150" cy="30" r=".9"/>
+      <circle class="s" cx="1176" cy="110" r="1"/><circle class="s" cx="1140" cy="250" r="1.2"/>
+      <circle class="s" cx="1060" cy="318" r=".9"/><circle class="s" cx="960" cy="300" r="1.1"/>
+      <circle class="s" cx="880" cy="322" r=".8"/><circle class="s" cx="812" cy="282" r="1.3"/>
+      <circle class="s" cx="760" cy="236" r=".7"/><circle class="s" cx="700" cy="320" r="1"/>
+      <circle class="s" cx="620" cy="304" r=".8"/><circle class="s" cx="540" cy="326" r="1.2"/>
+      <circle class="s" cx="24" cy="300" r="1"/><circle class="s" cx="90" cy="326" r=".8"/>
+      <circle class="s" cx="20" cy="170" r="1.1"/><circle class="s" cx="720" cy="150" r=".9"/>
+      <circle class="s" cx="790" cy="190" r="1.2"/><circle class="s" cx="1182" cy="190" r="1.1"/>
+    </g>
+    <g>
+      <line x1="0" y1="0" x2="-150" y2="-56" stroke="url(#cm)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2.4" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="translate" values="-200,-60;1400,540;1400,540" keyTimes="0;.1;1" dur="14s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="985" cy="165" r="128" fill="none" stroke="#FFFFFF" stroke-opacity=".12" stroke-dasharray="3 7"/>
+    <circle cx="985" cy="165" r="156" fill="none" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <g class="pl">
+      <circle cx="985" cy="165" r="48" fill="url(#planet)"/>
+      <ellipse cx="985" cy="165" rx="96" ry="20" fill="none" stroke="url(#ac)" stroke-width="2.2" stroke-opacity=".85" transform="rotate(-16 985 165)"/>
+    </g>
+    <g class="o1">
+      <circle cx="1113" cy="165" r="10" fill="#00D4FF" fill-opacity=".18"/>
+      <circle cx="1113" cy="165" r="5" fill="#00D4FF"/>
+    </g>
+    <g class="o2"><circle cx="985" cy="9" r="3.5" fill="#C3CCFF"/></g>
+    <text class="f" x="64" y="104" font-size="16" font-weight="600" letter-spacing="5" fill="#8FA2FF">HELLO, I'M</text>
+    <text class="f" x="62" y="166" font-size="60" font-weight="800" fill="url(#tt)">Abdullah Hijazy</text>
+    <text class="f" x="64" y="208" font-size="23" font-weight="600" fill="#E6EAFF">Full-Stack Software Architect · SaaS Founder</text>
+    <rect x="64" y="228" width="88" height="4" rx="2" fill="url(#ac)"/>
+    <g class="f" font-size="18" fill="#A9B4D8">
+      <text class="ln" x="64" y="274">› Building Atlas — a next-generation website builder &amp; CMS</text>
+      <text class="ln ln2" x="64" y="274">› Turning complex problems into production-ready software</text>
+      <text class="ln ln3" x="64" y="274">› Based in Germany · shipping for DACH &amp; MENA</text>
+    </g>
+  </g>
+</svg>
