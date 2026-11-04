@@ -77,7 +77,7 @@ const particle = (color, r, begin) =>
   `<animate attributeName="fill-opacity" values="1;.25;1" keyTimes="0;.5;1" dur="10s" begin="${begin}" repeatCount="indefinite"/></circle>`;
 
 // Isometric stack.
-const SX = 1090, tiles = [["Studio", "#7C5CFF", 140], ["API", "#5B7CFF", 186], ["Renderer", "#00B4D8", 232], ["Data", "#00D4FF", 278]];
+const SX = 1090, tiles = [["Design", "#7C5CFF", 140], ["Content", "#5B7CFF", 186], ["Publish", "#00B4D8", 232], ["Grow", "#00D4FF", 278]];
 let stack = "";
 tiles.forEach(([label, c, y], i) => {
   stack += `<g class="t t${i}">` +
@@ -88,7 +88,7 @@ tiles.forEach(([label, c, y], i) => {
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
   <title id="t">Motion and 3D, native to Atlas</title>
-  <desc id="d">A rotating wireframe cube, a spinning globe and a floating isometric stack of the Studio, API, Renderer and Data layers. Pure SVG with SMIL animation.</desc>
+  <desc id="d">A rotating wireframe cube, a spinning globe and a floating isometric stack of four layers. Pure SVG animation.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070A1A"/><stop offset=".6" stop-color="#0B1233"/><stop offset="1" stop-color="#160B30"/></linearGradient>
     <radialGradient id="gl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".32"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
@@ -110,12 +110,12 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" v
     <ellipse cx="855" cy="225" rx="220" ry="180" fill="url(#gl)"/>
     <text class="f" x="56" y="150" font-size="28" font-weight="700" fill="#FFFFFF">Motion &amp; 3D, native to Atlas</text>
     <g class="f" font-size="15" fill="#A9B4D8">
-      <text x="56" y="196">One timeline engine for DOM, 3D and variables</text>
-      <text x="56" y="226">R3F scenes with quality tiers and fallbacks</text>
-      <text x="56" y="256">glTF pipeline · meshopt · LODs · KTX2</text>
+      <text x="56" y="196">Animation and 3D, right inside the editor</text>
+      <text x="56" y="226">Scenes that stay smooth on every device</text>
+      <text x="56" y="256">From first sketch to live site in one place</text>
     </g>
     <text class="f pulse" x="56" y="300" font-size="13" font-weight="600" letter-spacing="3" fill="#00D4FF">LIVE 3D PREVIEW</text>
-    <text class="f" x="56" y="402" font-size="13" fill="#6B7699">Pure SVG + SMIL, no JavaScript, no video</text>
+    <text class="f" x="56" y="402" font-size="13" fill="#6B7699">Pure SVG animation · no video, no scripts</text>
     ${cube({ s: 78, cx: 585, cy: 225, dir: 1, color: "#00D4FF", faces: true, dots: true, oMin: 0.22, oMax: 1, wMin: 1, wMax: 2.4 })}
     ${cube({ s: 32, cx: 585, cy: 225, dir: -1, color: "#C3B3FF", faces: false, dots: false, oMin: 0.2, oMax: 0.95, wMin: 0.8, wMax: 1.6 })}
     <g transform="rotate(-18 ${GX} ${GY})">
